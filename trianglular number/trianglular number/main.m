@@ -13,9 +13,9 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         int n, triangularnumber;
-        triangularNumber =0;
+        triangularnumber =0;
         for (n = 1; n <= 200; n = n + 1)
-        triangularNumber +=n;
+        triangularnumber +=n;
         
         NSLog(@"The 200th triangular number is %i",triangularnumber);
     }
